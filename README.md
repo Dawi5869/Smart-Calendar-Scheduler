@@ -19,6 +19,7 @@ A Python-based command-line smart scheduling assistant that helps you manage you
 - Differentiates between **movable** and **fixed** events.
 - Respects your working hours (10:30 AM – 10:00 PM).
 - Automatically avoids early mornings, late nights, and overlapping time blocks.
+- Provides a 15-minute buffer time between events.
 
 ### 🔧 Custom Event Metadata
 - Uses event descriptions to track:
@@ -35,6 +36,7 @@ A Python-based command-line smart scheduling assistant that helps you manage you
 ## 🧑‍💻 Skills Demonstrated
 
 - **Google Calendar API integration**
+- **Gemini API integration**
 - **AI content generation using Gemini**
 - **Algorithmic time-slot optimization**
 - **Datetime and timezone manipulation with `pytz`**
