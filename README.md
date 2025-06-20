@@ -26,9 +26,9 @@ A Python-based command-line smart scheduling assistant that helps you manage you
   - `Due Date: YYYY-MM-DD`
 - Uses **color codes** to assign priority:
   - 🔴 `ASAP` → Color ID 11
-  - 🟠 `High` → Color ID 5
-  - 🟡 `Average` → Color ID 7
-  - 🔵 `Low` → Color ID 10
+  - 🟡 `High` → Color ID 5
+  - 🔵 `Average` → Color ID 7
+  - 🟢 `Low` → Color ID 10
 
 ---
 
@@ -43,9 +43,23 @@ A Python-based command-line smart scheduling assistant that helps you manage you
 
 ---
 
-## 🛠️ Setup Instructions
+## 📡 API Integrations
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/smart-calendar-scheduler.git
-cd smart-calendar-scheduler
+This project integrates two powerful APIs:
+
+### 1. **Google Calendar API**
+- **Purpose:** Authenticates the user, reads calendar events, and programmatically adds, updates, or reorganizes them.
+- **Usage Highlights:**
+  - Retrieves upcoming events from the user's primary calendar.
+  - Inserts or patches events based on available time slots.
+  - Uses OAuth 2.0 authentication flow via `credentials.json` and `token.json`.
+
+### 2. **Google Gemini API**
+- **Purpose:** Generates intelligent summaries of the user's schedule using natural language prompts.
+- **Usage Highlights:**
+  - Converts structured calendar data into plain-text summaries.
+  - Accepts custom user prompts like: *"What's my day looking like?"* or *"Which days are the busiest this week?"*
+  - Integrates with `gemini-2.0-flash-001` model via the `google.genai` SDK.
+
+These integrations demonstrate the blend of automation, personalization, and AI-powered insights within a real productivity workflow.
+
