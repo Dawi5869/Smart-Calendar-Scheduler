@@ -2,7 +2,7 @@
 
 A Python-based command-line smart scheduling assistant that helps you manage your Google Calendar more effectively. It lets you **reorganize events by priority and due date**, **intelligently fit tasks into free time**, and even **generate AI-powered summaries** of your schedule using Google Gemini.
 
-![calendar visualization](https://upload.wikimedia.org/wikipedia/commons/2/24/Google_Calendar_icon_%282020%29.svg)
+![calendar visualization](![image](https://github.com/user-attachments/assets/97afd800-a7c7-46f6-afc7-43964edbd358))
 
 ---
 
